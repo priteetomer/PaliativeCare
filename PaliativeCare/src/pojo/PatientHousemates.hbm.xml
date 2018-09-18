@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 1 Apr, 2016 3:29:45 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="pojo.PatientHousemates" table="PatientHousemates" catalog="paliative">
+        
+        <id name="housemateId" type="java.lang.Integer">
+            <column name="housemateId" />
+            <generator class="identity" />
+        </id>
+        
+        <property name="patientId" type="java.lang.Integer">
+            <column name="patientId" length="20" not-null="true" />
+        </property>
+        
+        <property name="name" type="string">
+            <column name="name" length="50" not-null="true" />
+        </property>
+        
+        <property name="relation" type="string">
+            <column name="relation" length="50" not-null="true" unique="true" />
+        </property>
+        
+        <property name="contactDetails" type="string">
+            <column name="contactDetails" length="500" not-null="true" unique="true" />
+        </property>
+       
+        
+    </class>
+</hibernate-mapping>

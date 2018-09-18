@@ -1,0 +1,44 @@
+.container2
+{
+margin:0 auto;
+left:30%;
+top:30%;
+}
+
+.c1
+{
+	position: absolute;
+	background-image: url(../images/infinite-images-seo-webdev-250x250.png);
+	width: 282px;
+	height: 243px;
+	left: 10%;
+	top: 35%;
+	width: 282px;
+	margin:0 auto;
+}
+
+.c2
+{
+	position:absolute;
+	background-image:url(../images/static%20website.jpg);
+	width: 282px;
+	height: 243px;
+	left: 10%;
+	top: 45%;
+	margin:0 auto;
+}
+
+.web_banner
+{
+	position:absolute;
+	margin:0 auto;
+	background:linear-gradient( to top, #00CCFF, #999);
+	/*background: linear-gradient-(to top, #09F, #999);*/
+	width: 354px;
+	height: 56px;
+	left: 30%;
+	top: 30%;
+	border-radius:10px;
+	color:#FFFFFF;
+	text-align:center;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 1 Apr, 2016 3:29:45 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="pojo.AboutMepojo" table="aboutme" catalog="paliative">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        
+        <property name="mystory" type="string">
+            <column name="mystory" length="2000" not-null="true" />
+        </property>
+        
+        <property name="mystrength" type="string">
+            <column name="mystrength" length="2000" not-null="true" />
+        </property>
+        <property name="mostlove" type="string">
+            <column name="mostlove" length="2000" not-null="true"/>
+        </property>
+        <property name="mostlike" type="string">
+            <column name="mostlike" length="2000" not-null="true" />
+        </property>
+        <property name="skills" type="string">
+            <column name="skills" length="2000" not-null="true" />
+        </property>
+        <property name="myhealth" type="string">
+            <column name="myhealth" length="2000" not-null="true" />
+        </property>
+        <property name="mostimp" type="string">
+            <column name="mostimp" length="2000" not-null="true" />
+        </property>
+        <property name="myhope" type="string">
+            <column name="myhope" length="2000" not-null="true" />
+        </property>
+        <property name="anyelse" type="string">
+            <column name="anyelse" length="2000" not-null="true" />
+        </property>
+        
+    </class>
+</hibernate-mapping>
